@@ -160,24 +160,6 @@ const app = createApp({});
 app.component('example-component', ExampleComponent);
 app.mount('#app');
 ```
-6. ビルドの実行
-```
-npm run build
-```
-7. BladeファイルでVueコンポーネントを使用<br />
-resources/views/upload.blade.php に以下を追加
-```
-<div id="app">
-    <example-component></example-component>
-</div>
-
-<script src="{{ mix('js/app.js') }}"></script>
-<link href="{{ mix('css/app.css') }}" rel="stylesheet">
-```
-8. サーバーの立ち上げ
-```
-php artisan serve
-```
 
 ## 使用技術(実行環境)
 - PHP 8.3.7
