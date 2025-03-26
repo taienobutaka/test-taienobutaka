@@ -30,7 +30,7 @@ name,birth_date,email,address
 ## 環境構築
 
 **Dockerビルド**
-1. `git clone git@github.com:taienobutaka/ReservationSystem.git`
+1. `https://github.com/taienobutaka/test-taienobutaka.git`
 2. DockerDesktopアプリを立ち上げる
 3. `docker-compose up -d --build`
 
